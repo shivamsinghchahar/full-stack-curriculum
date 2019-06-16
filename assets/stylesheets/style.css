@@ -86,3 +86,39 @@ body {
 
 
 /* FOOTER */
+.footer1{
+	background-color: #E8E7E7;
+}
+.footer2{
+	background-color: #655C5C;
+	font-size: 15px;
+	padding: 2rem;
+	color: #fff;
+}
+.follow{
+	text-align: center;
+	color: #473F3F;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.btn{
+	text-decoration: none;
+	height: 3rem;
+	width: 3rem;
+	border-radius: 10px;
+	border: 1px solid #9D9191;
+}
+.col{
+	color: #9D9191;
+}
+.flex2{
+	justify-content: space-around;
+	padding: 2rem;
+}
+.address{
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
