@@ -59,6 +59,11 @@ body {
     font-family: sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #000;
+}
+
 /* 
     Custom CSS 
 */
@@ -68,7 +73,7 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 
 .flex {
@@ -83,6 +88,96 @@ body {
 
 /* MAIN */
 
+/*Tiles*/
 
+.tiles {
 
-/* FOOTER */
+}
+
+.tiles article {
+	margin: 2rem 0;
+	width: 100%;
+	position: relative;
+}
+
+.tile {
+	padding: -2rem;
+}
+
+.image {
+	position: relative;
+	display: block;
+	width: 100%;
+	border: 0;
+	border-radius: 0.25rem;
+}
+
+.tile img {
+	display: block;
+	border-radius: 0.25rem;
+	width: 100%;
+}
+
+.tile a {
+	color: #ffffff;
+	line-height: 1.5;
+	letter-spacing: 0.035rem;
+	vertical-align: top;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border-radius: 0.25rem;
+	z-index: 3;
+	padding: 1rem;
+	
+}
+
+.tile h2 {
+	font-size: 1rem;
+	letter-spacing: 0.35rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	/*line-height: 1.5;*/
+}
+
+.tile p {
+	font-weight: 200;
+}
+
+.style-1 {
+	background: rgba(239,83,80 ,0.5);
+}
+
+.style-1:hover {
+	background: none;
+}
+
+.style-2 {
+	background: rgba(66,165,245 ,0.5);
+}
+
+.style-2:hover {
+	background: none;
+}
+
+.style-3 {
+	background: rgba(38,166,154 ,0.5);
+}
+
+.style-3:hover {
+	background: none;
+}
+
+@media all and (min-width: 768px) {
+	.tiles article {
+		width: 30%;
+		margin: 2rem 0.5rem;
+		justify-content: space-between;
+	}
+}
+/* FOOTER 
