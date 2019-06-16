@@ -47,6 +47,10 @@ img {
     vertical-align: top;
 }
 
+/* 
+    Custom CSS 
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -56,19 +60,20 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
 }
 
-/* 
-    Custom CSS 
-*/
+a {
+	text-decoration: none;
+	color: black;
+}
 
 /* MODULAR CLASSES */
 
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .flex {
@@ -79,10 +84,59 @@ body {
 
 /* HEADER */
 
-
-
+header {
+	line-height: 1.5;
+}
+.nav-bar {
+	justify-content: space-around;
+}
+.logo {
+	width: 100%;
+	justify-content: center;
+	padding: 1rem;
+}
+.menu-links {
+	justify-content: center;
+	width: 100%;
+}
+.menu-links a {
+	padding: 0.5rem;
+	font-weight: 400;
+}
+header h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.hero h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 1rem 0 1rem 0;
+}
+.hero {
+	padding: 1.5rem;
+	text-align: center;
+}
 /* MAIN */
 
 
 
 /* FOOTER */
+
+/* Header Media Query */
+
+@media all and (min-width: 600px) {
+	html {
+		font-size: 18px;
+	}
+	.menu-links {
+		width: 60%;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.logo {
+		width: 30%;
+		justify-content: flex-start;
+		padding-left: 0;
+	}
+	
+}
